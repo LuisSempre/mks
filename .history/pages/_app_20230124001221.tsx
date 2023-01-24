@@ -8,9 +8,9 @@ const montserrat = Montserrat({
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <div className={montserrat.className}>
+    <main className={montserrat.className}>
       <Component {...pageProps} />;
-    </div>
+    </main>
   );
 }
 

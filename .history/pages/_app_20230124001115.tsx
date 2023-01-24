@@ -4,14 +4,16 @@ import { Montserrat } from "@next/font/google";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
+  weight: ["400", "500", "700", "900"],
 });
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <div className={montserrat.className}>
-      <Component {...pageProps} />;
-    </div>
-  );
+    
+    <main className={montserrat.className}>
+    <Component {...pageProps} />;
+  </main>;
+    )
 }
 
 export default MyApp;
