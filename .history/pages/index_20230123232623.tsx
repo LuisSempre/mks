@@ -9,7 +9,7 @@ const Home: NextPage = () => {
   return (
     <>
       <HeaderComponent />
-      <div className='flex flex-col items-center justify-center h-screen'>
+      <div className='flex flex-col items-center justify-center'>
         <Head>
           <title>Create Next App</title>
           <link rel='icon' href='/favicon.ico' />

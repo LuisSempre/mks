@@ -15,7 +15,7 @@ const Home: NextPage = () => {
           <link rel='icon' href='/favicon.ico' />
         </Head>
 
-        <main className='flex flex-col items-center justify-center flex-1 w-full text-center'>
+        <main className='flex flex-col items-center justify-center flex-1 w-full px-20 text-center'>
           <ProductGrid />
         </main>
       </div>
