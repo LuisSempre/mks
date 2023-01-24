@@ -1,5 +1,5 @@
 import { Disclosure } from "@headlessui/react";
-import { XMarkIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import ShoppingCar from "../icons/shopping-car.svg";
 import Image from "next/image";
 

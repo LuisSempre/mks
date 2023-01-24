@@ -14,7 +14,7 @@ export default function SidebarCar() {
     <Disclosure as='nav' className='bg-[#0F52BA]'>
       {({ open }) => (
         <>
-          <div className='z-10 flex items-center justify-between h-16'>
+          <div className='z-0 flex items-center justify-between h-16'>
             {/* Mobile menu button*/}
             <Disclosure.Button className='inline-flex items-center justify-center p-2 rounded-md'>
               {open ? (
